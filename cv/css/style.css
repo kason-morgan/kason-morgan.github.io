@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default page margins */
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333; /* Differentiate nav */
+    color: #fff;
+    padding: 15px; 
+    display: flex; /* Make nav a flex container */
+    justify-content: space-between; /* Space out name and link */
+    align-items: center;
+}
+
+nav p {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Differentiate footer */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex; /* Make footer a flex container */
+    justify-content: center; /* Center footer items */
+    align-items: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px; /* Add some spacing between footer links */
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* List Styling */
+ul, dl {
+    margin-left: 20px;
+}
+
+/* Data List Styles */
+dl dt {
+    font-weight: bold;
+}
+
+dl dd {
+    margin-left: 20px;
+    font-style: italic;
+}
+
+/* Links Styling */
+a {
+    color: #0066cc;
+}
+
+a:hover {
+    color: #00509e;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    section {
+        margin: 10px;
+    }
+
+    nav p, nav a {
+        font-size: 1.2em;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    img {
+        width: 150px;
+        height: auto;
+    }
+}
+
+/* Splash Section Styles */
+.splash {
+    background-color: #f0f0f0; /* Light background color for contrast */
+    padding: 40px 20px; /* Add padding to make the splash section stand out */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Create a subtle shadow effect */
+}
+
+/* H1 Styles */
+.splash h1 {
+    font-family: 'Poppins', sans-serif; /* Use Google Font */
+    font-size: 3em; /* Increase font size for a splash effect */
+    color: #1a237e; /* Use a color number for the text (#1a237e is a dark blue) */
+    margin-bottom: 20px; /* Add space below the h1 */
+}
+
+/* Image Styles */
+.splash img {
+    border: 5px solid #1a237e; /* Add border to the headshot */
+    border-radius: 50%; /* Make the image a circle */
+    width: 200px; /* Set the width */
+    height: 200px; /* Set the height */
+}
+
+/* Address Paragraph Styles */
+.splash .address {
+    font-size: 1.2em; /* Increase font size */
+    font-weight: bold; /* Make it bold for emphasis */
+    color: #424242; /* Dark gray color */
+    margin-top: 10px;
+}
+
+/* Tagline Paragraph Styles */
+.splash .tagline {
+    font-style: italic; /* Make the tagline italic */
+    font-size: 1.1em; /* Slightly larger font size */
+    color: #616161; /* Medium gray color */
+    margin-top: 15px; /* Add some spacing */
+}
+
+/* Responsive Design for Splash Section */
+@media only screen and (max-width: 768px) {
+    .splash h1 {
+        font-size: 2em; /* Smaller font for smaller screens */
+    }
+
+    .splash img {
+        width: 150px; /* Smaller image for mobile */
+        height: 150px;
+    }
+
+    .splash .address,
+    .splash .tagline {
+        font-size: 1em; /* Reduce font size for mobile */
+    }
+}
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Set default body font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    font-size: 16px; /* Set default font size for body text */
+}
+
+/* Horizontal Rule Styles */
+hr {
+    border: 0;
+    height: 3px; /* Increase thickness */
+    background-color: #1a237e; /* Dark blue color */
+    margin: 20px 0;
+    border-radius: 5px; /* Rounded edges for a smoother look */
+}
+
+/* Section H2 Heading Styles */
+section h2 {
+    font-family: 'Poppins', sans-serif; /* Use Google Font for H2 headings */
+    font-size: 2em; /* Increase the font size */
+    color: #424242; /* Dark gray color for the headings */
+    margin-bottom: 15px;
+    border-bottom: 2px solid #1a237e; /* Add a bottom border for separation */
+    padding-bottom: 5px; /* Add space between text and border */
+}
+
+/* Education Section Styling (Paragraph) */
+section .education {
+    font-size: 1.2em; /* Increase font size */
+    font-weight: bold; /* Emphasize the paragraph */
+    line-height: 1.8; /* Improve readability */
+    color: #424242; /* Dark gray for the paragraph */
+    background-color: #f0f4c3; /* Light green background for contrast */
+    padding: 10px;
+    border-left: 4px solid #1a237e; /* Add border for style */
+}
+
+/* Unordered List Styling */
+ul {
+    list-style-type: square; /* Change bullet points to squares */
+    padding-left: 20px; /* Add some padding to the left */
+    font-size: 1.1em; /* Increase font size */
+    color: #616161; /* Medium gray text color */
+}
+
+/* Description List (DL) - Grid Layout */
+dl {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Two-column layout */
+    grid-gap: 10px; /* Add space between the columns */
+    align-items: start; /* Align items at the start of each row */
+    padding: 10px 0;
+}
+
+dt {
+    font-weight: bold;
+    color: #1a237e; /* Dark blue for the terms */
+}
+
+dd {
+    margin-left: 0; /* Remove default margin */
+    color: #616161; /* Medium gray color */
+    font-style: italic;
+}
+
+/* Link Styles */
+a {
+    color: #1a237e; /* Dark blue color for links */
+    text-decoration: none; /* Remove underline for links */
+}
+
+a:hover {
+    color: #ff7043; /* Change color to orange on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    section h2 {
+        font-size: 1.6em; /* Adjust heading size for smaller screens */
+    }
+
+    ul, dl {
+        font-size: 1em; /* Adjust list font size for smaller screens */
+    }
+}
+/* Projects Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+    gap: 20px; /* Space between cards */
+    padding: 20px 0;
+}
+
+/* Card Layout Styling */
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for card effect */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center content within the card */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Lift the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+/* Card Image Styling */
+.card img {
+    width: 100px; /* Set the image width */
+    height: auto; /* Keep the aspect ratio */
+    margin-bottom: 15px; /* Space between image and heading */
+    border-radius: 50%; /* Make the image circular */
+}
+
+/* Card Heading */
+.card h3 {
+    font-family: 'Poppins', sans-serif; /* Use Poppins font for the heading */
+    font-size: 1.5em;
+    color: #1a237e; /* Dark blue color */
+    margin-bottom: 10px;
+}
+
+/* Unordered List inside the Cards */
+.card ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    color: #424242; /* Medium gray text */
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Responsive Design for Three-Column Layout */
+@media only screen and (max-width: 768px) {
+    .three-col {
+        grid-template-columns: 1fr; /* Stack cards on smaller screens */
+    }
+}
+
+/* One-Column Layout for Form Section */
+.one-col {
+    display: flex;
+    flex-direction: column; /* Ensures elements are stacked vertically */
+    align-items: center; /* Centers the form and elements horizontally */
+    padding: 20px;
+}
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a card-like effect */
+    border-radius: 10px;
+}
+
+label {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #1a237e;
+    text-align: left;
+}
+
+/* Input and Textarea Styles */
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 15px; /* Add padding for better input field usability */
+    font-size: 1em; /* Set a clear, readable font size */
+    border: 2px solid #ccc; /* Slightly thicker border for input fields */
+    border-radius: 5px; /* Smooth, rounded edges for the fields */
+    margin-bottom: 20px;
+    width: 100%; /* Make input elements fill the width of the form */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for focus effect */
+}
+
+/* Focus State for Inputs and Textarea */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #1a237e; /* Change border color to dark blue on focus */
+    box-shadow: 0 0 5px rgba(26, 35, 126, 0.5); /* Add a subtle blue glow around the input */
+    outline: none; /* Remove default focus outline */
+}
+
+textarea {
+    resize: vertical; /* Allow resizing only vertically */
+    height: 150px; /* Set a default height */
+}
+
+input[type="submit"] {
+    padding: 15px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #1a237e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3949ab; /* Darken button on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
